@@ -6,7 +6,7 @@ The data augmentation method leverages the pix2pix architecture within a GAN fra
 
 1. Image Segmentation: The initial step involves segmenting medical images, which is used to train the pix2pix network.
   <p align="center">
-  ![](results/pix2pix_training.png)  
+  ![](https://github.com/Passonei/Image_data_augmentation/blob/main/results/pix2pix_training.png)  
   <b> Training data for the pix2pix <b/>   
     </p>
     
@@ -14,7 +14,7 @@ The data augmentation method leverages the pix2pix architecture within a GAN fra
 
 3. Generating Synthetic Images: The segmented images are combined and fed into the generative network. The network generates synthetic normal images with pathology.
   <p align="center">
-  ![](results/prediction.png)  
+  ![](https://github.com/Passonei/Image_data_augmentation/blob/main/results/prediction.png)  
   <b> Generated image based on merged images <b/>   
     </p>
     
@@ -23,7 +23,7 @@ The project includes a comparative analysis of the method's performance in image
 
 # Visual Turing Test
 <p align="center">
-  ![](results/mix_patology.png)    
+  ![](https://github.com/Passonei/Image_data_augmentation/blob/main/results/mix_patology.png)    
   <b> Images of real and synthetic examples of pathology.    
     (Synthetic example indexes: 2,3,6,9,14,15,16,19)<b/>   
 </p>
