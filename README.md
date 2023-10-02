@@ -5,27 +5,30 @@ This repository presents a method for augmenting medical image data in the conte
 The data augmentation method leverages the pix2pix architecture within a GAN framework and involves the following steps:
 
 1. Image Segmentation: The initial step involves segmenting medical images, which is used to train the pix2pix network.
-  <p align="center">
-  ![](https://github.com/Passonei/Image_data_augmentation/blob/main/results/pix2pix_training.png)  
-  <b> Training data for the pix2pix <b/>   
-    </p>
-    
+
+<p align="center">
+<img src="results/pix2pix_training.png">  
+</p>
+  
 2. Matching Pathologies: Subsequently, for each image from the normal class, a corresponding pathology image is selected.
 
 3. Generating Synthetic Images: The segmented images are combined and fed into the generative network. The network generates synthetic normal images with pathology.
-  <p align="center">
-  ![](https://github.com/Passonei/Image_data_augmentation/blob/main/results/prediction.png)  
-  <b> Generated image based on merged images <b/>   
-    </p>
+   
+<p align="center">
+<img src="results/prediction.png">
+</p>
     
 # Results and Comparisons
 The project includes a comparative analysis of the method's performance in image classification tasks using the Adaboost algorithm and the ResNet-50 model. Statistical tests have shown the effectiveness of the developed medical data augmentation method.
 
 # Visual Turing Test
+
 <p align="center">
-  ![](https://github.com/Passonei/Image_data_augmentation/blob/main/results/mix_patology.png)    
-  <b> Images of real and synthetic examples of pathology.    
-    (Synthetic example indexes: 2,3,6,9,14,15,16,19)<b/>   
+<img src="results/mix_patology.png">
+<br>
+<b> Images of real and synthetic examples of pathology</b>
+<br>
+<sub>(Synthetic example indexes: 2,3,6,9,14,15,16,19)</sub>  
 </p>
 
 # Repository Structure
